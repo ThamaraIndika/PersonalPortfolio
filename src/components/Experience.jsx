@@ -6,8 +6,6 @@ import { motion, useScroll, useSpring } from 'framer-motion'
 import { useRef } from 'react'
 
 const Experience = () => {
-  const date = new Date().getFullYear()
-
   const containerRef = useRef(null)
 
   const { scrollYProgress } = useScroll({
@@ -16,6 +14,7 @@ const Experience = () => {
   })
 
   const scrollY = useSpring(scrollYProgress, { stiffness: 200, damping: 20 })
+
   return (
     <div id="experience" className="relative py-20">
       <Heading text={'Experience & Education'} />
@@ -33,7 +32,7 @@ const Experience = () => {
         {experienceData.map((data, i) => (
           <div
             key={`id-${i}`}
-            className={`w-[600px] xl:w-[480px] sm:w-full px-12 sm:px-0 relative -left-[300p ${
+            className={`w-[600px] xl:w-[480px] sm:w-full px-12 sm:px-0 relative ${
               i % 2 === 0
                 ? '-left-[300px] xl:-left-[240px] lg:-left-0'
                 : 'left-[300px] xl:left-[240px] lg:left-0'
@@ -78,7 +77,8 @@ const Experience = () => {
                   : 'right-full translate-x-1/2 lg:right-1/2'
               }`}
             >
-              {date - experienceData.length + i + 1}
+              {/* 🔽 Fixed custom years */}
+              {[2015, 2017, 2023, 2023, 2024][i]}
             </div>
           </div>
         ))}

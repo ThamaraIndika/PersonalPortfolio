@@ -23,22 +23,22 @@ import AwardFillIcon from 'remixicon-react/AwardFillIcon'
 export const aboutData = [
   {
     title: 'Github Repos',
-    amount: 348,
+    amount: 10,
     icon: <GithubFillIcon />,
   },
   {
     title: 'Successful Projects',
-    amount: 227,
+    amount: 3,
     icon: <Projector2LineIcon />,
   },
   {
     title: 'Satisfied clients',
-    amount: 176,
+    amount: 8,
     icon: <GroupLineIcon />,
   },
   {
     title: 'Awards and Recognition',
-    amount: 107,
+    amount: 2,
     icon: <AwardFillIcon />,
   },
 ]
@@ -50,57 +50,57 @@ export const downloadIcon = <DownloadLineIcon />
 export const arrowLeftIcon = <ArrowLeftSFillIcon />
 
 export const aboutText =
-  " Hi, I'm Nick, a web developer & designer. I blend the technical  skills of web development with the creative aspects of web design. I code in HTML, CSS, JavaScript, React, NextJS... to build functional and responsive websites, while also using design tools like Photoshop and Figma to create visually appealing and user-friendly  interfaces. My role allows me to ensure that websites not only work well but also look great and provide an excellent user experience."
+  " Hi, I'm Indika, a Electrical & AI Engineer. I blend the technical  skills with the creative aspects of Engineering. I code in Python, C/C++, HTML, CSS, JavaScript, React, NextJS... to build functional and responsive AI models.My role allows me to ensure that AI models not only work well but also look great and provide an excellent user experience."
 // End of About Me
 
 // Experience
 export const experienceData = [
   {
     year: 1,
-    title: 'Foundation and Basics',
+    title: 'Advanced Level',
     education:
-      'High School Diploma: Focus on computer science, mathematics, and art/design courses.',
+      'Royal College Monaragala: Focus on Mathematics, Chemistry, and Physics.',
     experience: [
-      'Basic HTML/CSS: Learn through online tutorials and courses.',
-      'Personal Projects: Create simple personal websites or blogs.',
+      'Basic Algebra',
+      'Mathematics.',
     ],
   },
   {
     year: 2,
-    title: 'Advanced Learning and Early Experience',
+    title: 'Bachelor of Science(Honors) in Electrical & Electronic Engineering',
     education:
-      'Associate’s Degree in Web Development or Design: Enroll in a 2-year program covering web development and design principles.',
+      'South Eastern University. 4 year program covering ELectrical Engineering and Telecommunication subjects.',
     experience: [
-      'Freelance Work: Take on small freelance projects to build a portfolio.',
-      'Online Courses and Certifications: Learn JavaScript, responsive design, and UX/UI design.',
-    ],
+      'Data structures and ALgorithms',
+      'Introduction to Computer Programming',
+      'Computer Networks',]
   },
   {
     year: 3,
-    title: 'Specialized Education and Real-World Application',
-    education:
-      'Online Courses and Bootcamps: Focus on specialized areas like front-end frameworks (React, Angular) and back-end technologies (Node.js).',
+    title: '6 Month Internship',
+    Company:
+      'CEB and Lanka Sugar Company Pelwatte.',
     experience: [
-      'Internships: Secure internships with tech companies or design agencies.',
-      'Contribute to Open Source: Collaborate on open-source projects.',
+      'Electrical Engineering',
+      'Electronic Engineering',
     ],
   },
   {
     year: 4,
-    title: 'Building Expertise and Expanding Skills',
-    education: 'Certifications: Obtain certifications in advanced web technologies.',
+    title: 'Temorary Instructor',
+    Institute: 'South Eastern University of Sri Lanka',
     experience: [
-      'Full-Time Position: Work as a junior web developer or designer.',
-      'Portfolio Development: Continuously update your portfolio with professional and personal projects.',
+      'Conducted Lab session on Computer Science subjects',
+      'Presented weekly research meetings',
     ],
   },
   {
     year: 5,
-    title: 'Mastery and Leadership',
-    education: 'Workshops and Conferences: Attend industry events to stay updated.',
+    title: 'Junior Engineer',
+    Company: 'Gaiagreen Energy Holdings',
     experience: [
-      'Senior Position: Aim for a senior web developer or lead designer role, mentoring junior colleagues.',
-      'Freelance and Consulting: Consider starting a freelance business or consulting practice.',
+      'Document works/ Microsoft Excel',
+      'Project Planning Primavera P6',
     ],
   },
 ]
@@ -108,18 +108,19 @@ export const experienceData = [
 // Skills
 export const skillsData = [
   {
-    name: 'Figma',
-    icon: '/skills/figma.png',
+    name: 'Machine Learning',
+    icon: '/skills/machine-learning.png', // icon representing ML
   },
   {
-    name: 'Photoshop',
-    icon: '/skills/photoshop.png',
+    name: 'C/C++',
+    icon: '/skills/c-cpp.png', // icon representing C/C++
   },
   {
-    name: 'Blender',
-    icon: '/skills/blender.png',
+    name: 'Python',
+    icon: '/skills/python.png', // example additional skill
   },
   {
+  
     name: 'VS Code',
     icon: '/skills/vscode.png',
   },
@@ -139,10 +140,7 @@ export const skillsData = [
     name: 'TailwindCSS',
     icon: '/skills/tailwind.png',
   },
-  {
-    name: 'Vite',
-    icon: '/skills/vite.png',
-  },
+ 
   {
     name: 'ReactJS',
     icon: '/skills/react.png',
@@ -159,10 +157,7 @@ export const skillsData = [
     name: 'Framer Motion',
     icon: '/skills/framer.png',
   },
-  {
-    name: 'ThreeJS',
-    icon: '/skills/threejs.png',
-  },
+  
   {
     name: 'NextJS',
     icon: '/skills/nextjs.png',
@@ -194,7 +189,7 @@ export const arrowIcons = [<ArrowLeftSLineIcon />, <ArrowRightSLineIcon />]
 export const reviewsData = [
   {
     image: '/reviews/client-4.png',
-    name: 'Mark T., Freelance Graphic Designer',
+    name: 'Sudesh Sudeera - Web developer',
     comment:
       "Your work on our website has been phenomenal. The design is visually stunning and incredibly user-friendly. We've received countless compliments from our customers, and our sales have noticeably increased. Thank you for capturing our brand's essence so perfectly!",
     stars: [1, 1, 1, 1, 0.5],
@@ -464,26 +459,13 @@ export const navbarData = [
     name: 'Reviews',
     icon: <UserStarLineIcon />,
   },
-  {
-    id: 'projects',
-    name: 'Projects',
-    icon: <ProjectorLineIcon />,
-  },
-  {
-    id: 'pricing',
-    name: 'Pricing',
-    icon: <PriceTag3LineIcon />,
-  },
+  
   {
     id: 'contact',
     name: 'Contact',
     icon: <ContactsBook2LineIcon />,
   },
-  {
-    id: 'questions',
-    name: 'Questions',
-    icon: <QuestionAnswerLineIcon />,
-  },
+  
 ]
 
 // Toggle

@@ -74,10 +74,10 @@ const Hero = () => {
             </motion.span>
           </motion.div>
           <h1 className="text-center text-3xl font-bold tracking-wider text-gray-500 sm:text-2xl dark:text-white transition-colors">
-            My Name is Nick Brown &
+            My Name is Indika &
           </h1>
           <p className="text-lg tracking-wider text-gray-700 dark:text-gray-200 transition-colors">
-            I like animations 🤗
+            I like C/C++ & AI🤗
           </p>
         </motion.div>
         <motion.div
