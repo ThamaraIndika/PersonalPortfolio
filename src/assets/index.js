@@ -50,7 +50,8 @@ export const downloadIcon = <DownloadLineIcon />
 export const arrowLeftIcon = <ArrowLeftSFillIcon />
 
 export const aboutText =
-  " Hi, I'm Indika, a Electrical & AI Engineer. I blend the technical  skills with the creative aspects of Engineering. I code in Python, C/C++, HTML, CSS, JavaScript, React, NextJS... to build functional and responsive AI models.My role allows me to ensure that AI models not only work well but also look great and provide an excellent user experience."
+  " Hi, I'm Indika, an Electrical Engineer with a strong foundation in Data Structures and Algorithms.
+I combine my engineering knowledge with programming skills in C++, HTML, CSS, and JavaScript to build efficient and practical solutions. My focus is on applying analytical thinking and technical precision to create reliable and well-structured engineering and software systems."
 // End of About Me
 
 // Experience
@@ -108,6 +109,9 @@ export const experienceData = [
 // Skills
 export const skillsData = [
   {
+    name: 'Electrical Engineering',
+    icon: '/skills/machine-learning.png', // icon representing ML
+  },{
     name: 'Machine Learning',
     icon: '/skills/machine-learning.png', // icon representing ML
   },
@@ -145,36 +149,7 @@ export const skillsData = [
     name: 'ReactJS',
     icon: '/skills/react.png',
   },
-  {
-    name: 'TypeScript',
-    icon: '/skills/ts.png',
-  },
-  {
-    name: 'AI',
-    icon: '/skills/ai.png',
-  },
-  {
-    name: 'Framer Motion',
-    icon: '/skills/framer.png',
-  },
   
-  {
-    name: 'NextJS',
-    icon: '/skills/nextjs.png',
-  },
-  {
-    name: 'NodeJS',
-    icon: '/skills/nodejs.png',
-  },
-  {
-    name: 'MongoDB',
-    icon: '/skills/mongodb.png',
-  },
-  {
-    name: 'Github',
-    icon: '/skills/github.png',
-  },
-]
 
 // Reviews
 import StarFillIcon from 'remixicon-react/StarFillIcon'
