@@ -50,8 +50,7 @@ export const downloadIcon = <DownloadLineIcon />
 export const arrowLeftIcon = <ArrowLeftSFillIcon />
 
 export const aboutText =
-  " Hi, I'm Indika, an Electrical Engineer with a strong foundation in Data Structures and Algorithms.
-I combine my engineering knowledge with programming skills in C++, HTML, CSS, and JavaScript to build efficient and practical solutions. My focus is on applying analytical thinking and technical precision to create reliable and well-structured engineering and software systems."
+  " Hi, I'm Indika, an Electrical Engineer with a strong foundation in Data Structures and Algorithms.I combine my engineering knowledge with programming skills in C++, HTML, CSS, and JavaScript to build efficient and practical solutions. My focus is on applying analytical thinking and technical precision to create reliable and well-structured engineering and software systems."
 // End of About Me
 
 // Experience
